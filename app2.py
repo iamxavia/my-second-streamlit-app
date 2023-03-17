@@ -1,6 +1,5 @@
 import streamlit as st
 import sklearn
-import plotly
 model = pickle.load(open("model.pickle", "rb"))
 
 st.title('Revenue Prediction')
